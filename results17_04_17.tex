@@ -1,0 +1,441 @@
+\documentclass[a4paper,10pt]{report}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx} % figuras
+\usepackage[export]{adjustbox} % loads also graphicx
+\usepackage{float}
+\usepackage{wrapfig,lipsum,booktabs}
+
+% Title Page
+\title{}
+\author{}
+
+
+\begin{document}
+\section*{Theory}
+For the wetting phase ($w$) and non-wetting phase ($n$) we have:
+\begin{equation}\label{eq:satrel}
+ S_n+S_w=1
+\end{equation}
+The pressure in the wetting fluid is less than in the nonwetting fluid. 
+This difference in pressures is known as the capillary pressure, $p_c$, and it's function of saturation:
+\begin{equation}\label{eq:cappress}
+ p_c(S_w)=p_n-p_w.
+\end{equation}
+\emph{Relative permeability}\\
+The relative permeability for an isotropic medium is defined as:
+$$k_{r\alpha}=K_{\alpha}^e/K.$$
+The relative permeabilities will generally be functions of saturation, generally nonlinear.
+It is common to use analytic relationships to represent relative permeabilities. These are usually stated using normalized or effective saturations $\hat{S}_w.$ The simplest model possible is called the Corey model:
+\begin{equation}\label{eq:Corey}
+\begin{aligned}
+k_{rw}=(\hat{S}_w)^{n_w}k_w^0,\\
+k_{ro}=(1-\hat{S}_w)^{n_n}k_o^0.\\
+\end{aligned}
+\end{equation}
+where $n_w>1$, $n_o>1$ and $k_{\alpha}^0$ are fitting parameters.\\
+\emph{Immiscible two-phase flow}\\
+For the case of immiscible fluids, the flow equations are:
+\begin{equation}\label{we}
+ \frac{\partial(\phi \rho_{w}S_{w})}{\partial t}+\nabla \cdot ( \rho_{w} \mathbf{v}_{w})=\rho_{w} q_{w},
+\end{equation}
+\begin{equation}\label{ne}
+ \frac{\partial(\phi \rho_{n}S_{n})}{\partial t}+\nabla \cdot ( \rho_{n} \mathbf{v}_{n})=\rho_{n} q_{n}.
+\end{equation}
+\begin{equation*}
+\mathbf{v}_{\alpha}=-\frac{k_{r\alpha}}{\mu_{\alpha}} {K}(\nabla p_{\alpha}-\rho_{\alpha} g \nabla z).
+\end{equation*}
+To simplify notation, the phase mobilities ($\lambda_{\alpha}=Kk_{r\alpha}/\mu_{\alpha}$) or relative phase mobilities ($\lambda_{\alpha}=\lambda_{\alpha}K$) are used. \\
+\emph{Fractional flow formulation}\\
+ A common choice is to use $p_n$ and $S_w$ which gives the following system
+ \begin{equation}
+ \frac{\partial(\phi \rho_{w}{S}_{w})}{\partial t}+\nabla \cdot ( \rho_{w} \mathbf{v}_{w})=\rho_{w} q_{w},
+\end{equation}
+\begin{equation}
+ \frac{\partial(\phi \rho_{n}(1-{S}_{w}))}{\partial t}+\nabla \cdot ( \rho_{n} \mathbf{v}_{n})=\rho_{n} q_{n}.
+\end{equation}
+with
+\begin{equation}
+\mathbf{v}_{w}=\frac{{K}k_{rw}}{\mu_w}(\nabla p_n-\nabla P_c(S_w)-\rho_w g \nabla z),
+\end{equation}
+\begin{equation}
+ \mathbf{v}_{n}= \frac{{K}k_{rn}}{\mu_n}(\nabla p_n-\rho_n g \nabla z).
+\end{equation}
+
+\emph{Incompressible flow}\\
+For incompressible flow, only the Saturation $S$ is a function of time and the fluid densities $\rho_{\alpha}$ are constant. Therefore, the mass-balance equations are:
+\begin{equation}
+ \phi\frac{\partial {S}_{\alpha}}{\partial t}+\nabla \cdot  \mathbf{v}_{\alpha}= q_{\alpha}.
+\end{equation}
+If we reareange terms, using $\mathbf{v}=\mathbf{v}_w+\mathbf{v}_n$, the total Darcy velocity, $\lambda=\lambda_n+\lambda_w=\lambda K$, the total mobility, $q=q_n+q_w$, $\Delta \rho= \rho_w-\rho_n$ and the fractional flow function $f_w$:
+$$f_w=\frac{\lambda_{w}}{\lambda_n+\lambda_w}=\frac{\lambda_{w}}{\lambda},$$
+for the wetting phase we have:
+\begin{equation}\label{eq:sat}
+ \phi\frac{\partial( {S}_{w})}{\partial t}+\nabla \cdot [f_w( \mathbf{v}+\lambda_n\Delta  \rho g\nabla z)]= q_w-\nabla \cdot(f_w\lambda_np_c\nabla S_w),
+\end{equation}
+ and
+\begin{align*}
+\mathbf{v}=-\lambda(\nabla p_n-f_w\nabla p_w-(f_n \rho_n+f_w\rho_w)g\nabla z).\\
+\end{align*}
+\emph{\textbf{Sequential solution procedures}}\\
+The two-phase, incompressible model will be solved using the fractional-flow formulation. This fractional flow model consists of an elliptic
+pressure equation
+\begin{equation}\label{eq:wdarcy}
+ \nabla \cdot \mathbf{v}=q, \qquad \mathbf{v}=-\lambda(\nabla p_n-f_w\nabla p_c-(f_n \rho_n+f_w\rho_w)g\nabla z)\\
+\end{equation}
+and a parabolic transport equation \eqref{eq:sat}
+\begin{equation}\label{eq:wsat}
+ \phi\frac{\partial( {S}_{w})}{\partial t}+\nabla \cdot [f_w( \mathbf{v}+\lambda_n(\Delta  \rho g\nabla z)+\nabla P_c(S_w))]= q_w.
+\end{equation}
+Where the capillary pressure $p_c = p_w −p_n$ is assumed to be a known function $P_c$ of the wetting saturation $S_w$. \\
+\emph{\textbf{Saturation solvers}}\\
+The saturation equation depends on the time, using backward Euler discretization for the time derivative in Equation \ref{eq:wsat}, we have:
+\begin{equation}\label{eq:wsat1}
+ \phi\frac{( {S}_{w}^{n+1}-{S}_{w}^n)}{\Delta t}+\nabla \cdot [f_w({S}_{w})( \mathbf{v}+\lambda_n({S}_{w})(\Delta  \rho g\nabla z+\nabla P_c({S}_{w})))]= q_w,
+\end{equation}
+or
+\begin{equation*}\label{eq:wsat2}
+ {S}_{w}^{n+1}={S}_{w}^n-\frac{\Delta t}{\phi}\nabla \cdot [f_w({S}_{w})( \mathbf{v}+\lambda_n({S}_{w})(\Delta  \rho g\nabla z+\nabla P_c({S}_{w})))]+q_w,
+\end{equation*}
+which can be computed explicitly:
+\begin{equation*}\label{eq:wsat3}
+ {S}_{w}^{n+1}={S}_{w}^n-\mathcal{F}({S}_{w}^{n},{S}_{w}^{n}),
+\end{equation*}
+or implicitly:
+\begin{equation*}\label{eq:wsat4}
+ {S}_{w}^{n+1}={S}_{w}^n-\mathcal{F}({S}_{w}^{n+1},{S}_{w}^{n}).
+\end{equation*}
+The nonlinear system can be solved with NR method, where, for the $(k+1)$-th iteration we have:
+$$\mathbf{J}(\mathbf{S}^k)\delta\mathbf{S}^{k+1}=-\mathbf{F}(\mathbf{S}^k;\mathbf{S}^n),
+\qquad \mathbf{S}^{k+1}=\mathbf{S}^k+\delta \mathbf{S}^{k+1},$$
+where $\mathbf{J}(\mathbf{S}^k)=\frac{\partial \mathbf{F}(\mathbf{S}^k;\mathbf{S}^n)}{\partial \mathbf{S}^k}$ is the 
+Jacobian matrix, and $\delta \mathbf{S}^{k+1}$ is the NR update at iteration step $k+1$.\\
+Therefore, the linear system to solve is:\\
+\begin{equation}\label{eq:lsS}
+\mathbf{J}(\mathbf{S}^k)\delta \mathbf{S}^{k+1}=\mathbf{b}(\mathbf{S}^k).
+\end{equation}
+with $\mathbf{b}(\mathbf{S}^k)$ being the function evaluated at iteration step $k$, $\mathbf{b}(\mathbf{S}^k)=-\mathbf{F}(\mathbf{S}^k;\mathbf{S}^n)$.\\
+
+\newpage
+\textbf{Heterogeneous permeability layers, BC}\\
+We simulate flow through a porous media with the following characteristics:
+size 64 x 64
+
+Boundary conditions:
+Injection of water y direction, $rate_{y_0}=0.1meter^3/day$, $p_{y_{max}}=0bars$\\
+$injRate = -0.1*meter^3/day;$\\
+$bc = fluxside([], G, 'ymin', -injRate, 'sat', [1, 0]);$\\
+$bc = pside(bc, G, 'ymax', 0*barsa, 'sat', [0, 1]);$\\
+$T      = 450*day();$    \\
+$dT     = T/60;$\\
+
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+\hline 
+$10^{1}$ &4458& DICCG$_{10}$&700&306&1006&23\\ 
+\hline  
+$10^{1}$ &4458& DICCG$_{POD_{10}}$&700&280&980&22 \\ 
+\hline  
+$10^{1}$ &4458& DICCG$_{POD_{5}}$&700&380&1080&24 \\ 
+\hline 
+
+$10^{2}$ &6157& DICCG$_{10}$&975&291&1266&21\\ 
+\hline  
+$10^{2}$ &6157& DICCG$_{POD_{10}}$&975&287&1262&20 \\ 
+\hline  
+$10^{2}$ &6157& DICCG$_{POD_{5}}$&975&359&1334&22 \\ 
+\hline 
+$10^{3}$ &6635& DICCG$_{10}$&1077&292&1369&21\\ 
+\hline  
+$10^{3}$ &6635& DICCG$_{POD_{10}}$&1077&311&1388&21 \\ 
+\hline  
+$10^{3}$ &6635& DICCG$_{POD_{5}}$&1077&403&1480&22 \\ 
+\hline 
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, no cp, water injection through the y boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table}  
+
+\emph{\textbf{Capillary pressure}}
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+\hline 
+$10^{1}$ &4469& DICCG$_{10}$&704&367&1071&24\\ 
+\hline  
+$10^{1}$ &4469& DICCG$_{POD_{10}}$&704&367&1071&24 \\ 
+\hline  
+$10^{1}$ &4469& DICCG$_{POD_{5}}$&704&433&1137&25 \\ 
+\hline   
+$10^{2}$ &6149& DICCG$_{10}$&976&295&1271&21\\ 
+\hline  
+$10^{2}$ &6149& DICCG$_{POD_{10}}$&976&274&1250&20 \\ 
+\hline  
+$10^{2}$ &6149& DICCG$_{POD_{5}}$&976&299&1275&21 \\ 
+\hline 
+$10^{3}$ &6637& DICCG$_{10}$&1078&269&1347&20\\ 
+\hline  
+$10^{3}$ &6637& DICCG$_{POD_{10}}$&1078&311&1389&21 \\ 
+\hline  
+$10^{3}$ &6637& DICCG$_{POD_{5}}$&1078&254&1332&20 \\ 
+\hline  
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, cp, water injection through the y boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table}  
+
+
+\newpage 
+Boundary conditions:
+Injection of water y direction, $rate_{x_0}=0.1meter^3/day$, $p_{x_{max}}=0bars$\\
+$injRate = -0.1*meter^3/day;$\\
+$bc = fluxside([], G, 'xmin', -injRate, 'sat', [1, 0]);$\\
+$bc = pside(bc, G, 'xmax', 0*barsa, 'sat', [0, 1]);$\\
+$T      = 450*day();$    \\
+$dT     = T/60;$\\
+
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+ \hline 
+$10^{1}$ &4573& DICCG$_{10}$&701&499&1200&26\\ 
+\hline  
+$10^{1}$ &4573& DICCG$_{POD_{10}}$&701&476&1177&26 \\ 
+\hline  
+$10^{1}$ &4573& DICCG$_{POD_{5}}$&701&590&1291&28 \\ 
+\hline 
+$10^{2}$ &4596& DICCG$_{10}$&727&442&1169&25\\ 
+\hline  
+$10^{2}$ &4596& DICCG$_{POD_{10}}$&727&442&1169&25 \\ 
+\hline  
+$10^{2}$ &4596& DICCG$_{POD_{5}}$&727&483&1210&26 \\ 
+\hline   
+$10^{3}$ &3154& DICCG$_{10}$&431&381&812&26\\ 
+\hline  
+$10^{3}$ &3154& DICCG$_{POD_{10}}$&431&381&812&26 \\ 
+\hline  
+$10^{3}$ &3154& DICCG$_{POD_{5}}$&431&413&844&27 \\ 
+\hline 
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, no cp , water injection through the x boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table}  
+
+\emph{\textbf{Capillary pressure}}
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+\hline 
+$10^{1}$ &4687& DICCG$_{10}$&726&593&1319&28\\ 
+\hline  
+$10^{1}$ &4687& DICCG$_{POD_{10}}$&726&593&1319&28 \\ 
+\hline  
+$10^{1}$ &4687& DICCG$_{POD_{5}}$&726&527&1253&27 \\ 
+\hline  
+$10^{2}$ &4551& DICCG$_{10}$&724&408&1132&25\\ 
+\hline  
+$10^{2}$ &4551& DICCG$_{POD_{10}}$&724&408&1132&25 \\ 
+\hline  
+$10^{2}$ &4551& DICCG$_{POD_{5}}$&724&399&1123&25 \\ 
+\hline 
+$10^{3}$ &3025& DICCG$_{10}$&430&410&840&28\\ 
+\hline  
+$10^{3}$ &3025& DICCG$_{POD_{10}}$&430&410&840&28 \\ 
+\hline  
+$10^{3}$ &3025& DICCG$_{POD_{5}}$&430&381&811&27 \\ 
+\hline  
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, cp, water injection through the x boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table} 
+\newpage
+\emph{\textbf{3D Gravity}}
+10 z-cells
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+\hline 
+$10^{1}$ &5123& DICCG$_{10}$&850&182&1032&20\\ 
+\hline  
+$10^{1}$ &5123& DICCG$_{POD_{10}}$&850&58&908&18 \\ 
+\hline  
+$10^{1}$ &5123& DICCG$_{POD_{5}}$&850&52&902&18 \\ 
+\hline 
+$10^{2}$ &5641& DICCG$_{10}$&940&214&1154&20\\ 
+\hline  
+$10^{2}$ &5641& DICCG$_{POD_{10}}$&940&79&1019&18 \\ 
+\hline  
+$10^{2}$ &5641& DICCG$_{POD_{5}}$&940&99&1039&18 \\ 
+\hline 
+$10^{3}$ &3360& DICCG$_{10}$&560&305&865&26\\ 
+\hline  
+$10^{3}$ &3360& DICCG$_{POD_{10}}$&560&148&708&21 \\ 
+\hline  
+$10^{3}$ &3360& DICCG$_{POD_{5}}$&560&167&727&22 \\ 
+\hline  
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, no cp , water injection through the x boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table}  
+
+\emph{\textbf{Capillary pressure}}
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+& ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+\hline 
+$10^{1}$ &5100& DICCG$_{10}$&850&608&1458&29\\ 
+\hline  
+$10^{1}$ &5100& DICCG$_{POD_{10}}$&850&78&928&18 \\ 
+\hline  
+$10^{1}$ &5100& DICCG$_{POD_{5}}$&850&92&942&18 \\ 
+\hline                           
+$10^{2}$ &5640& DICCG$_{10}$&940&179&1119&20\\ 
+\hline  
+$10^{2}$ &5640& DICCG$_{POD_{10}}$&940&133&1073&19 \\ 
+\hline  
+$10^{2}$ &5640& DICCG$_{POD_{5}}$&940&148&1088&19 \\ 
+\hline  
+ $10^{3}$ &3360& DICCG$_{10}$&560&377&937&28\\ 
+\hline  
+$10^{3}$ &3360& DICCG$_{POD_{10}}$&560&172&732&22 \\ 
+\hline  
+$10^{3}$ &3360& DICCG$_{POD_{5}}$&560&238&798&24 \\ 
+\hline  
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, cp, water injection through the x boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table}  
+
+\textbf{Heterogeneous permeability layers, Wells}\\
+We simulate flow through a porous media with the following characteristics:
+size 64 x 64
+
+Boundary conditions:
+Injection of water y direction, $W_{1}=100 bars$, $W_2=100bars$\\
+$T      = 450*day();$  \\  
+$dT     = T/60;$\\
+
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+\hline 
+$10^{1}$ &4799& DICCG$_{10}$&799&113&912&19\\ 
+\hline  
+$10^{1}$ &4799& DICCG$_{POD_{10}}$&799&113&912&19 \\ 
+\hline  
+$10^{1}$ &4799& DICCG$_{POD_{5}}$&799&162&961&20 \\ 
+\hline  
+$10^{2}$ &6060& DICCG$_{10}$&1080&87&1167&19\\ 
+\hline  
+$10^{2}$ &6060& DICCG$_{POD_{10}}$&1080&87&1167&19 \\ 
+\hline  
+$10^{2}$ &6060& DICCG$_{POD_{5}}$&1080&101&1181&19 \\ 
+\hline 
+$10^{3}$ &5803& DICCG$_{10}$&1080&121&1201&21\\ 
+\hline  
+$10^{3}$ &5803& DICCG$_{POD_{10}}$&1080&98&1178&20 \\ 
+\hline  
+$10^{3}$ &5803& DICCG$_{POD_{5}}$&1080&108&1188&20 \\ 
+\hline 
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, no cp, water injection through the y boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table}  
+
+\emph{\textbf{Capillary pressure}}
+\begin{table}[!ht]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||c|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+\hline 
+$10^{1}$ &4802& DICCG$_{10}$&801&140&941&20\\ 
+\hline  
+$10^{1}$ &4802& DICCG$_{POD_{10}}$&801&140&941&20 \\ 
+\hline  
+$10^{1}$ &4802& DICCG$_{POD_{5}}$&801&154&955&20 \\ 
+\hline  
+$10^{2}$ &6203& DICCG$_{10}$&1099&87&1186&19\\ 
+\hline  
+$10^{2}$ &6203& DICCG$_{POD_{10}}$&1099&87&1186&19 \\ 
+\hline  
+$10^{2}$ &6203& DICCG$_{POD_{5}}$&1099&98&1197&19 \\ 
+\hline  
+$10^{3}$ &5867& DICCG$_{10}$&1080&196&1276&22\\ 
+\hline  
+$10^{3}$ &5867& DICCG$_{POD_{10}}$&1080&95&1175&20 \\ 
+\hline  
+$10^{3}$ &5867& DICCG$_{POD_{5}}$&1080&125&1205&21 \\ 
+\hline  
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers, cp, water injection through the y boundary. }\label{table:litertot2} 
+\end{minipage}  
+\end{table}  
+
+
+
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{ |c|c|c|} 
+\hline
+Property&Water&Units\\
+Porosity&     0.2&    \\ 
+Permeability&     10&    $milli darcy$  \\  
+$\rho$& 1000& $kilogram/meter^3$\\
+$k_r$& $(1-S_w)^2$ &  \\
+ \hline
+\end{tabular}
+\label{table:rock}
+\end{table} 
+
+Layers with different permeability
+\begin{table}[!ht]
+\centering
+\begin{tabular}{ |c|c|c|c|} 
+\hline
+Property&Water&Oil&Units\\
+$\mu$&     1&    10 & $centi*poise$  \\  
+$\rho$& 1000& 700& $kilogram/meter^3$\\
+$k_r$&$(S_w)^2$&   $(1-S_w)^2$ &  \\
+ \hline
+\end{tabular}
+\label{table:fluid}
+\end{table} 
+
+
+
+
+\end{document}          
