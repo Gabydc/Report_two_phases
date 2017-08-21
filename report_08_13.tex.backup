@@ -1294,7 +1294,7 @@ The pressure in the wells is presented for each experiment. On the boundaries, w
 
 In this section we study waterflooding with two wells. Water is injected in one well placed in a corner of the domain. The second well is placed in the opposite corner. The domain consist on 35 x 35 cells. It contains layers with different permeability (see Figure \ref{fig:Perm2w}). The contrast between permeability layers varies from $10^0$ to $10^7$. The pressure in the injector is 200 bars and in the producer is -200 bars (see Table \ref{table:wells2}). The fluid properties are the same as in the previous experiments (see Table \ref{table:fluids} and Figure \ref{fig:cp1}). As in the previous experiments, we study deflation method with five and ten POD basis vectors as deflation vectors. The number of iterations necessary to achieve convergence are presented in Table \ref{table:litertotw2}. The total time of the simulation is taken as the time when a volume of water corresponding to 1.2 of the pore volume of the reservoir, for an homogeneous problem, is injected. This total time is used for the rest of the simulations. We simulate 240 time steps. In Figures \ref{fig:Oilrate2w0} \label{fig:Oilrate2w1} and \ref{fig:Oilrate2w7}, the oil rate is presented for homogeneous problem and layers with a contrast of $10^1$ and $10^7$. The water rate is presented in Figures \ref{fig:Waterrate2w0}, \label{fig:Waterrate2w1} and \ref{fig:Waterrate2w7} for the same experiments.\\
 We observe, in Table \ref{table:litertotw2}, that the number of iterations needed to achieve convergence with the DICCG method is reduced up to $\approx 25\%$ of the necessary ICCG iterations for the homogeneous problem. For the heterogeneous problem, the reduction achieved with DICCG is up to $5\%$ of the ICCG iterations.  
-We observe that, as the contrast in permeability increases, the injection rate of water decreases in around one order of magnitude when the contrast in permeability changes in one order of magnitude.
+
 
 
 \begin{table}
@@ -1365,19 +1365,19 @@ $10^{7}$ &16080& DICCG$_{POD_{5}}$&670&267&937&6 \\
 
 
 \begin{figure}[!h] \hspace{-1cm}
-\begin{minipage}{.5\textwidth}
+\begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=6cm,height=6cm,keepaspectratio]
 {/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_0cp0/def_0_pod_0/Oil_rate.jpg}
-\caption{Oil Rate.}
+\caption{Oil Rate, homogeneous problem.}
 \label{fig:Oilrate2w0}
 \end{minipage}%  
 \hspace{0.5cm}
-\begin{minipage}{.5\textwidth}
+\begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=6cm,height=6cm,keepaspectratio]
 {/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_0cp0/def_0_pod_0/Water_rate.jpg}
-\caption{Water Rate.}
+\caption{Water Rate, homogeneous problem.}
 \label{fig:Waterrate2w0}
 \end{minipage}
 \end{figure}
@@ -1389,17 +1389,16 @@ $10^{7}$ &16080& DICCG$_{POD_{5}}$&670&267&937&6 \\
 \begin{minipage}{.9\textwidth}
 \includegraphics[width=13cm,height=13cm,keepaspectratio]
 {/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_0cp0/def_0_pod_0/Saturation.jpg}
-\caption{Water saturation.}
+\caption{Water saturation, homogeneous problem.}
 \label{fig:Sat2w}
 \end{minipage} 
-\hspace{0.5cm}
+%\hspace{0.5cm}
 \end{figure}
 \begin{figure}[!h]\centering
 \begin{minipage}{.9\textwidth}
- 
-\includegraphics[width=13cm,height=13cm,keepaspectratio]
+\includegraphics[width=13.5cm,height=13.5cm,keepaspectratio]
 {/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_0cp0/def_0_pod_0/Pressure.jpg}
-\caption{Pressure.}
+\caption{Pressure field, homogeneous problem.}
 \label{fig:Press2w}
 \end{minipage}
 \end{figure}
@@ -1407,47 +1406,44 @@ $10^{7}$ &16080& DICCG$_{POD_{5}}$&670&267&937&6 \\
 
 \newpage
 \begin{figure}[!h] \hspace{-1cm}
-\hspace{0.5cm}
-\begin{minipage}{.5\textwidth}
+\begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=6cm,height=6cm,keepaspectratio]
 {/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_1cp0/def_0_pod_0/Oil_rate.jpg}
-\caption{Oil Rate (perm $10^ {1}$).}
+\caption{Oil Rate, contrast between permeability layers of $10^ {1}$.}
 \label{fig:Oilrate2w1}
 \end{minipage}%
-\begin{minipage}{.5\textwidth}
+\hspace{0.5cm}
+\begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=6cm,height=6cm,keepaspectratio]
 {/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_1cp0/def_0_pod_0/Water_rate.jpg}
-\caption{Water Rate (perm $10^ {1}$).}
+\caption{Water Rate, contrast between permeability layers of $10^ {1}$.}
 \label{fig:Waterrate2w1}
 \end{minipage}  
 \end{figure}
 
 
 \begin{figure}[!h] \hspace{-1cm}
-\begin{minipage}{.5\textwidth}
+\begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=6cm,height=6cm,keepaspectratio]
-{/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_3cp0/def_0_pod_0/Oil_rate.jpg}
-\caption{Oil Rate (perm $10^ {7}$).}
+{/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_7cp0/def_0_pod_0/Oil_rate.jpg}
+\caption{Oil Rate, contrast between permeability layers of $10^ {7}$.}
 \label{fig:Oilrate2w7}
 \end{minipage}%  
 \hspace{0.5cm}
-\begin{minipage}{.5\textwidth}
+\begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=6cm,height=6cm,keepaspectratio]
-{/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_3cp0/def_0_pod_0/Water_rate.jpg}
-\caption{Water Rate (perm $10^ {7}$).}
+{/mnt/sda2/cortes/Results/2017/Report/2wells1/10-11_35perm_7cp0/def_0_pod_0/Water_rate.jpg}
+\caption{Water Rate, contrast between permeability layers of $10^ {7}$.}
 \label{fig:Waterrate2w7}
 \end{minipage}
 \end{figure}
 
+We observe that, as the contrast in permeability increases, the injection rate of water decreases in around one order of magnitude when the contrast in permeability changes in one order of magnitude.
 
-
-
-
-\newpage
 
 \newpage
 
@@ -1463,14 +1459,14 @@ The domain consists of a Cartesian grid of 30 x 30 cells with a length of ten me
 \centering
 \begin{minipage}{.7\textwidth}
 \centering
-\includegraphics[width=7cm,height=7cm,keepaspectratio]{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/2/10-9_30perm_1cp0/def_0_pod_0/Permeability.jpg}
+\includegraphics[width=7cm,height=7cm,keepaspectratio]{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_7cp0/def_1_pod_5/Permeability.jpg}
 \caption{Rock permeability}
 \label{fig:rockpermw1}
 \end{minipage}%  
 \end{figure}
 
 One injector is placed in the center and four on the corners of the reservoir (see Figure \ref{fig:rockpermw1}). The wells are controlled via the bottom hole pressure (bhp). 
- Water is injected into a reservoir initially filled with oil. The values of the wells are presented in Table \ref{table:wells5}. The first simulation has constant permeability through all the reservoir. The simulation is run until we inject 1.2 times the pore volume of the reservoir, this process takes 345 days. We used this time, as the total time of the rest of the experiments. We use 200 time steps.    
+ Water is injected into a reservoir initially filled with oil. The values of the wells are presented in Table \ref{table:wells5}. The first simulation has constant permeability through all the reservoir. The simulation is run until we inject 1.2 times the pore volume of the reservoir, this process takes around 40 days. We used this time, as the total time of the rest of the experiments. We use 240 time steps.    
 \begin{table}[!ht]
 \hspace{-0cm}
 \begin{minipage}{.5\textwidth}
@@ -1479,10 +1475,10 @@ One injector is placed in the center and four on the corners of the reservoir (s
 \hline
 Well&Water Sat&Oil Sat&Pressure\\
 \hline
-$P_1$&     0&    1 & $50$ bars \\  
-$P_2$& 0& 1& $50$ bars\\
-$P_3$&     0&    1 & $50$ bars \\  
-$P_4$& 0& 1& $50$ bars\\
+$P_1$&     0&    1 & $-50$ bars \\  
+$P_2$& 0& 1& $-50$ bars\\
+$P_3$&     0&    1 & $-50$ bars \\  
+$P_4$& 0& 1& $-50$ bars\\
 $I$&     1&    0 & $200$ bars\\  
 \hline
 \end{tabular}
@@ -1515,22 +1511,34 @@ $\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\
                            & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
                                     &    &  & & &+ DICCG& \\                   
 \hline  
-$10^{0}$ &5445& DICCG$_{POD_{10}}$&280&632&912&17 \\ 
+$10^{1}$ &7460& DICCG$_{POD_{10}}$&405&700&1105&15 \\ 
 \hline  
-$10^{0}$ &5445& DICCG$_{POD_{5}}$&280&767&1047&19 \\ 
+$10^{1}$ &7460& DICCG$_{POD_{5}}$&405&970&1375&18 \\ 
 \hline  
-$10^{1}$ &8031& DICCG$_{POD_{10}}$&400&781&1181&15 \\ 
+$10^{1}$ &7460& DICCG$_{POD_{10}}$&405&700&1105&15 \\ 
 \hline  
-$10^{1}$ &8031& DICCG$_{POD_{5}}$&400&1011&1411&18 \\  
+$10^{1}$ &7460& DICCG$_{POD_{5}}$&405&970&1375&18 \\ 
 \hline  
-$10^{2}$ &9788& DICCG$_{POD_{10}}$&483&210&693&7 \\ 
+$10^{2}$ &7037& DICCG$_{POD_{10}}$&345&265&610&9 \\ 
 \hline  
-$10^{2}$ &9788& DICCG$_{POD_{5}}$&483&274&757&8 \\ 
+$10^{2}$ &7037& DICCG$_{POD_{5}}$&345&373&718&10 \\ 
+\hline   
+$10^{3}$ &7274& DICCG$_{POD_{10}}$&349&745&1094&15 \\ 
+\hline  
+$10^{3}$ &7274& DICCG$_{POD_{5}}$&349&233&582&8 \\ 
+\hline  
+$10^{4}$ &7440& DICCG$_{POD_{10}}$&310&1230&1540&21 \\ 
+\hline  
+$10^{4}$ &7440& DICCG$_{POD_{5}}$&310&323&633&9 \\ 
 \hline 
-$10^{3}$ &10779& DICCG$_{POD_{10}}$&531&437&968&9 \\ 
+$10^{5}$ &1920& DICCG$_{POD_{10}}$&80&490&570&30 \\ 
 \hline  
-$10^{3}$ &10779& DICCG$_{POD_{5}}$&531&484&1015&9 \\ 
+$10^{5}$ &1920& DICCG$_{POD_{5}}$&80&264&344&18 \\ 
 \hline 
+$10^{6}$ &1440& DICCG$_{POD_{10}}$&60&306&366&25 \\ 
+\hline  
+$10^{6}$ &1440& DICCG$_{POD_{5}}$&60&231&291&20 \\ 
+\hline   
 \end{tabular} 
 \caption{Comparison between the ICCC and DICCG methods.}\label{table:litertotw1} 
 \end{minipage}  
@@ -1546,7 +1554,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Water_rate.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Water_rate.jpg}
 \caption{Water Rate, homogeneous permeability.}
 \label{fig:Convho}
 \end{minipage}%
@@ -1554,7 +1562,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Water_saturation.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Water_saturation.jpg}
 \caption{Water Saturation, homogeneous permeability.}
 \label{fig:Convho}
 \end{minipage}  
@@ -1566,7 +1574,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Oil_rate.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Oil_rate.jpg}
 \caption{Oil rate, homogeneous permeability.}
 \label{fig:Convho}
 \end{minipage}%  
@@ -1574,7 +1582,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Pressure.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Pressure.jpg}
 \caption{Pressure, homogeneous permeability.}
 \label{fig:Convho}
 \end{minipage}
@@ -1587,7 +1595,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Water_rate.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Water_rate.jpg}
 \caption{Water Rate, heterogeneous permeability (contrast $10^{1}$).}
 \label{fig:Convho}
 \end{minipage}%
@@ -1595,7 +1603,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Water_saturation.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Water_saturation.jpg}
 \caption{Water Saturation, heterogeneous permeability (contrast $10^{1}$).}
 \label{fig:Convho}
 \end{minipage}  
@@ -1607,7 +1615,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Oil_rate.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Oil_rate.jpg}
 \caption{Oil rate, heterogeneous permeability (contrast $10^{1}$).}
 \label{fig:Convho}
 \end{minipage}%  
@@ -1615,7 +1623,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Pressure.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Pressure.jpg}
 \caption{Pressure, heterogeneous permeability (contrast $10^{1}$).}
 \label{fig:Convho}
 \end{minipage}
@@ -1630,7 +1638,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Water_rate.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Water_rate.jpg}
 \caption{Water Rate, heterogeneous permeability (contrast $10^{3}$).}
 \label{fig:Convho}
 \end{minipage}%
@@ -1638,7 +1646,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Water_saturation.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Water_saturation.jpg}
 \caption{Water Saturation, heterogeneous permeability (contrast $10^{3}$).}
 \label{fig:Convho}
 \end{minipage}  
@@ -1650,7 +1658,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Oil_rate.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Oil_rate.jpg}
 \caption{Oil rate, heterogeneous permeability (contrast $10^{3}$).}
 \label{fig:Convho}
 \end{minipage}%  
@@ -1658,7 +1666,7 @@ The number of iterations necessary to achieve convergence are presented in Table
 \begin{minipage}{.45\textwidth}
  \centering
 \includegraphics[width=8cm,height=8cm,keepaspectratio]
-{/home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Pressure.jpg}
+{/mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Pressure.jpg}
 \caption{Pressure, heterogeneous permeability (contrast $10^{3}$).}
 \label{fig:Convho}
 \end{minipage}

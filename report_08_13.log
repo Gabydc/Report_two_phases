@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  21 AUG 2017 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  21 AUG 2017 20:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,250 +1047,241 @@ _35perm_1cp0/def_0_pod_0/Oil_rate.jpg> </mnt/sda2/cortes/Results/2017/Report/2w
 ells1/10-11_35perm_1cp0/def_0_pod_0/Water_rate.jpg> </mnt/sda2/cortes/Results/2
 017/Report/2wells1/10-11_35perm_7cp0/def_0_pod_0/Oil_rate.jpg> </mnt/sda2/corte
 s/Results/2017/Report/2wells1/10-11_35perm_7cp0/def_0_pod_0/Water_rate.jpg>]
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/2/10-9_30perm_1
-cp0/def_0_pod_0/Permeability.jpg, id=152, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/2/10-9_30p
-erm_1cp0/def_0_pod_0/Permeability.jpg Graphic file (type jpg)
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_7cp0/def_1_pod_5/Perm
+eability.jpg, id=152, 1204.5pt x 903.375pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_7cp0/def_1_pod_5
+/Permeability.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/2/10-9_30pe
-rm_1cp0/def_0_pod_0/Permeability.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/2/10-9_30perm_1cp0/def_0_pod_0/Permeability.jpg used on input line 146
-2.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_7cp0/def_1_pod_5/
+Permeability.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_7cp0/def_1_pod_5/Permeability.jpg used on input line 1462.
 (pdftex.def)             Requested size: 199.15665pt x 149.36748pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1535--1536
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1535--1536
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1548
 
  []
 
-[30 </home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/2/10-9_30pe
-rm_1cp0/def_0_pod_0/Permeability.jpg>]
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0
-cp0/def_0_pod_0/Water_rate.jpg, id=156, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_0cp0/def_0_pod_0/Water_rate.jpg Graphic file (type jpg)
+[30 </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_7cp0/def_1_pod_5/
+Permeability.jpg>]
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Wate
+r_rate.jpg, id=156, 1204.5pt x 903.375pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0
+/Water_rate.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_0cp0/def_0_pod_0/Water_rate.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Water_rate.jpg used on input line 1545.
-
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/
+Water_rate.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_0cp0/def_0_pod_0/Water_rate.jpg used on input line 1557.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1545--1546
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1557--1558
  [][] 
  []
 
 
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0
-cp0/def_0_pod_0/Water_saturation.jpg, id=157, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_0cp0/def_0_pod_0/Water_saturation.jpg Graphic file (type jpg)
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Satu
+ration.jpg, id=157, 915.9437pt x 227.92847pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0
+/Saturation.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_0cp0/def_0_pod_0/Water_saturation.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Water_saturation.jpg used on input line
- 1553.
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/
+Saturation.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_0cp0/def_0_pod_0/Saturation.jpg used on input line 1565.
+(pdftex.def)             Requested size: 227.61569pt x 56.64113pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1553--1554
+Overfull \hbox (20.29254pt too wide) in paragraph at lines 1565--1566
  [][] 
  []
 
 
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0
-cp0/def_0_pod_0/Oil_rate.jpg, id=158, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_0cp0/def_0_pod_0/Oil_rate.jpg Graphic file (type jpg)
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Oil_
+rate.jpg, id=158, 1204.5pt x 903.375pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0
+/Oil_rate.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_0cp0/def_0_pod_0/Oil_rate.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Oil_rate.jpg used on input line 1565.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/
+Oil_rate.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_0cp0/def_0_pod_0/Oil_rate.jpg used on input line 1577.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1565--1566
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1577--1578
  [][] 
  []
 
 
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_0
-cp0/def_0_pod_0/Pressure.jpg, id=159, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_0cp0/def_0_pod_0/Pressure.jpg Graphic file (type jpg)
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/Pres
+sure.jpg, id=159, 908.87381pt x 220.78088pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0
+/Pressure.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_0cp0/def_0_pod_0/Pressure.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Pressure.jpg used on input line 1573.
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/
+Pressure.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_0cp0/def_0_pod_0/Pressure.jpg used on input line 1585.
+(pdftex.def)             Requested size: 227.62007pt x 55.29277pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1573--1574
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[31 </home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_0cp0/def_0_pod_0/Water_rate.jpg> </home/wagm/cortes/Localdisk/Results/17_07/
-two_phases/13/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Water_saturation.jpg>]
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1
-cp0/def_0_pod_0/Water_rate.jpg, id=164, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_1cp0/def_0_pod_0/Water_rate.jpg Graphic file (type jpg)
-
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_1cp0/def_0_pod_0/Water_rate.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Water_rate.jpg used on input line 1586.
-
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
-
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1586--1587
- [][] 
- []
-
-
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1
-cp0/def_0_pod_0/Water_saturation.jpg, id=165, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_1cp0/def_0_pod_0/Water_saturation.jpg Graphic file (type jpg)
-
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_1cp0/def_0_pod_0/Water_saturation.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Water_saturation.jpg used on input line
- 1594.
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
-
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1594--1595
- [][] 
- []
-
-
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1
-cp0/def_0_pod_0/Oil_rate.jpg, id=166, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_1cp0/def_0_pod_0/Oil_rate.jpg Graphic file (type jpg)
-
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_1cp0/def_0_pod_0/Oil_rate.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Oil_rate.jpg used on input line 1606.
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
-
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1606--1607
- [][] 
- []
-
-
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1
-cp0/def_0_pod_0/Pressure.jpg, id=167, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_1cp0/def_0_pod_0/Pressure.jpg Graphic file (type jpg)
-
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_1cp0/def_0_pod_0/Pressure.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Pressure.jpg used on input line 1614.
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
-
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1614--1615
+Overfull \hbox (20.29692pt too wide) in paragraph at lines 1585--1586
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32 </home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_0cp0/def_0_pod_0/Oil_rate.jpg> </home/wagm/cortes/Localdisk/Results/17_07/tw
-o_phases/13/5wells/1/10-9_30perm_0cp0/def_0_pod_0/Pressure.jpg> </home/wagm/cor
-tes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_1cp0/def_0_pod_0
-/Water_rate.jpg> </home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5well
-s/1/10-9_30perm_1cp0/def_0_pod_0/Water_saturation.jpg>]
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3
-cp0/def_0_pod_0/Water_rate.jpg, id=171, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_3cp0/def_0_pod_0/Water_rate.jpg Graphic file (type jpg)
+[31 </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/
+Water_rate.jpg> </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/
+def_0_pod_0/Saturation.jpg>]
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Wate
+r_rate.jpg, id=164, 1204.5pt x 903.375pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0
+/Water_rate.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_3cp0/def_0_pod_0/Water_rate.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Water_rate.jpg used on input line 1629.
-
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/
+Water_rate.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_1cp0/def_0_pod_0/Water_rate.jpg used on input line 1598.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1629--1630
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1598--1599
  [][] 
  []
 
 
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3
-cp0/def_0_pod_0/Water_saturation.jpg, id=172, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_3cp0/def_0_pod_0/Water_saturation.jpg Graphic file (type jpg)
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Satu
+ration.jpg, id=165, 915.15816pt x 231.10516pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0
+/Saturation.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_3cp0/def_0_pod_0/Water_saturation.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Water_saturation.jpg used on input line
- 1637.
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/
+Saturation.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_1cp0/def_0_pod_0/Saturation.jpg used on input line 1606.
+(pdftex.def)             Requested size: 227.61598pt x 57.47992pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1637--1638
+Overfull \hbox (20.29283pt too wide) in paragraph at lines 1606--1607
  [][] 
  []
 
 
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3
-cp0/def_0_pod_0/Oil_rate.jpg, id=173, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_3cp0/def_0_pod_0/Oil_rate.jpg Graphic file (type jpg)
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Oil_
+rate.jpg, id=166, 1204.5pt x 903.375pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0
+/Oil_rate.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_3cp0/def_0_pod_0/Oil_rate.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Oil_rate.jpg used on input line 1649.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/
+Oil_rate.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_1cp0/def_0_pod_0/Oil_rate.jpg used on input line 1618.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1649--1650
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1618--1619
  [][] 
  []
 
 
-</home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3
-cp0/def_0_pod_0/Pressure.jpg, id=174, 1204.5pt x 903.375pt>
-File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30p
-erm_3cp0/def_0_pod_0/Pressure.jpg Graphic file (type jpg)
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/Pres
+sure.jpg, id=167, 909.65935pt x 222.36923pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0
+/Pressure.jpg Graphic file (type jpg)
 
-<use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_3cp0/def_0_pod_0/Pressure.jpg>
-Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-3/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Pressure.jpg used on input line 1657.
-(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/
+Pressure.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_1cp0/def_0_pod_0/Pressure.jpg used on input line 1626.
+(pdftex.def)             Requested size: 227.6086pt x 55.63966pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1657--1658
+Overfull \hbox (20.28545pt too wide) in paragraph at lines 1626--1627
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33 </home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_1cp0/def_0_pod_0/Oil_rate.jpg> </home/wagm/cortes/Localdisk/Results/17_07/tw
-o_phases/13/5wells/1/10-9_30perm_1cp0/def_0_pod_0/Pressure.jpg> </home/wagm/cor
-tes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30perm_3cp0/def_0_pod_0
-/Water_rate.jpg> </home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5well
-s/1/10-9_30perm_3cp0/def_0_pod_0/Water_saturation.jpg>]
+[32 </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/def_0_pod_0/
+Oil_rate.jpg> </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_0cp0/de
+f_0_pod_0/Pressure.jpg> </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_1cp0/def_0_pod_0/Water_rate.jpg> </mnt/sda2/cortes/Results/2017/Report/5well
+s/10-11_35perm_1cp0/def_0_pod_0/Saturation.jpg>]
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Wate
+r_rate.jpg, id=171, 1204.5pt x 903.375pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0
+/Water_rate.jpg Graphic file (type jpg)
 
-LaTeX Warning: Reference `' on page 34 undefined on input line 1667.
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/
+Water_rate.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_3cp0/def_0_pod_0/Water_rate.jpg used on input line 1641.
+(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
+
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1641--1642
+ [][] 
+ []
+
+
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Satu
+ration.jpg, id=172, 914.3726pt x 229.51682pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0
+/Saturation.jpg Graphic file (type jpg)
+
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/
+Saturation.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_3cp0/def_0_pod_0/Saturation.jpg used on input line 1649.
+(pdftex.def)             Requested size: 227.61594pt x 57.13391pt.
+
+Overfull \hbox (20.29279pt too wide) in paragraph at lines 1649--1650
+ [][] 
+ []
+
+
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Oil_
+rate.jpg, id=173, 1204.5pt x 903.375pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0
+/Oil_rate.jpg Graphic file (type jpg)
+
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/
+Oil_rate.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_3cp0/def_0_pod_0/Oil_rate.jpg used on input line 1661.
+(pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
+
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1661--1662
+ [][] 
+ []
+
+
+</mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/Pres
+sure.jpg, id=174, 912.80153pt x 226.3401pt>
+File: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0
+/Pressure.jpg Graphic file (type jpg)
+
+<use /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/
+Pressure.jpg>
+Package pdftex.def Info: /mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_3cp0/def_0_pod_0/Pressure.jpg used on input line 1669.
+(pdftex.def)             Requested size: 227.61484pt x 56.43982pt.
+
+Overfull \hbox (20.29169pt too wide) in paragraph at lines 1669--1670
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33 </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/def_0_pod_0/
+Oil_rate.jpg> </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_1cp0/de
+f_0_pod_0/Pressure.jpg> </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35pe
+rm_3cp0/def_0_pod_0/Water_rate.jpg> </mnt/sda2/cortes/Results/2017/Report/5well
+s/10-11_35perm_3cp0/def_0_pod_0/Saturation.jpg>]
+
+LaTeX Warning: Reference `' on page 34 undefined on input line 1679.
 
 
 </home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_1cp_0
@@ -1301,10 +1292,10 @@ File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_
 <use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_1
 cp_0/def_0_pod_0/Oil_rate.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-6/SPE/SPE10_16_56l_1cp_0/def_0_pod_0/Oil_rate.jpg used on input line 1729.
+6/SPE/SPE10_16_56l_1cp_0/def_0_pod_0/Oil_rate.jpg used on input line 1741.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1729--1730
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1741--1742
  [][] 
  []
 
@@ -1317,10 +1308,10 @@ File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_
 <use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_1
 cp_0/def_0_pod_0/Pressure.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-6/SPE/SPE10_16_56l_1cp_0/def_0_pod_0/Pressure.jpg used on input line 1737.
+6/SPE/SPE10_16_56l_1cp_0/def_0_pod_0/Pressure.jpg used on input line 1749.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1737--1738
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1749--1750
  [][] 
  []
 
@@ -1336,10 +1327,10 @@ File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_
 <use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_1
 cp_0/def_0_pod_0/Water_rate.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-6/SPE/SPE10_16_56l_1cp_0/def_0_pod_0/Water_rate.jpg used on input line 1747.
+6/SPE/SPE10_16_56l_1cp_0/def_0_pod_0/Water_rate.jpg used on input line 1759.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1747--1748
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1759--1760
  [][] 
  []
 
@@ -1353,24 +1344,24 @@ File: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/16/SPE/SPE10_16_56l_
 cp_0/def_0_pod_0/Water_saturation.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
 6/SPE/SPE10_16_56l_1cp_0/def_0_pod_0/Water_saturation.jpg used on input line 17
-55.
+67.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1755--1756
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1767--1768
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34 </home/wagm/cortes/Localdisk/Results/17_07/two_phases/13/5wells/1/10-9_30pe
-rm_3cp0/def_0_pod_0/Oil_rate.jpg> </home/wagm/cortes/Localdisk/Results/17_07/tw
-o_phases/13/5wells/1/10-9_30perm_3cp0/def_0_pod_0/Pressure.jpg>]
+[34 </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/def_0_pod_0/
+Oil_rate.jpg> </mnt/sda2/cortes/Results/2017/Report/5wells/10-11_35perm_3cp0/de
+f_0_pod_0/Pressure.jpg>]
 
-LaTeX Warning: Reference `' on page 35 undefined on input line 1769.
+LaTeX Warning: Reference `' on page 35 undefined on input line 1781.
 
 
-Overfull \hbox (26.99217pt too wide) in paragraph at lines 1775--1786
+Overfull \hbox (26.99217pt too wide) in paragraph at lines 1787--1798
  [][] 
  []
 
@@ -1383,10 +1374,10 @@ l_1cp_0/def_0_pod_0/bhp.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/17/SPEc2/SPE10_16_56l
 _1cp_0/def_0_pod_0/bhp.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-7/SPEc2/SPE10_16_56l_1cp_0/def_0_pod_0/bhp.jpg used on input line 1832.
+7/SPEc2/SPE10_16_56l_1cp_0/def_0_pod_0/bhp.jpg used on input line 1844.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1832--1833
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1844--1845
  [][] 
  []
 
@@ -1399,11 +1390,11 @@ l_1cp_0/POD/def_0_pod_0/eig_pod0.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/17/SPEc2/SPE10_16_56l
 _1cp_0/POD/def_0_pod_0/eig_pod0.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/eig_pod0.jpg used on input line 1840
+7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/eig_pod0.jpg used on input line 1852
 .
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1840--1841
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1852--1853
  [][] 
  []
 
@@ -1424,11 +1415,11 @@ l_1cp_0/POD/def_0_pod_0/Oil_rate.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/17/SPEc2/SPE10_16_56l
 _1cp_0/POD/def_0_pod_0/Oil_rate.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/Oil_rate.jpg used on input line 1910
+7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/Oil_rate.jpg used on input line 1922
 .
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1910--1911
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1922--1923
  [][] 
  []
 
@@ -1441,11 +1432,11 @@ l_1cp_0/POD/def_0_pod_0/Pressure.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_07/two_phases/17/SPEc2/SPE10_16_56l
 _1cp_0/POD/def_0_pod_0/Pressure.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
-7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/Pressure.jpg used on input line 1918
+7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/Pressure.jpg used on input line 1930
 .
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1918--1919
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1930--1931
  [][] 
  []
 
@@ -1462,10 +1453,10 @@ l_1cp_0/POD/def_0_pod_0/Water_rate.jpg Graphic file (type jpg)
 _1cp_0/POD/def_0_pod_0/Water_rate.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
 7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/Water_rate.jpg used on input line 19
-28.
+40.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1928--1929
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1940--1941
  [][] 
  []
 
@@ -1479,10 +1470,10 @@ l_1cp_0/POD/def_0_pod_0/Water_saturation.jpg Graphic file (type jpg)
 _1cp_0/POD/def_0_pod_0/Water_saturation.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_07/two_phases/1
 7/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/Water_saturation.jpg used on input l
-ine 1936.
+ine 1948.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
-Overfull \hbox (20.28444pt too wide) in paragraph at lines 1936--1937
+Overfull \hbox (20.28444pt too wide) in paragraph at lines 1948--1949
  [][] 
  []
 
@@ -1490,14 +1481,14 @@ Overfull \hbox (20.28444pt too wide) in paragraph at lines 1936--1937
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1944--1945
+Underfull \hbox (badness 10000) in paragraph at lines 1956--1957
 
  []
 
 [36 </home/wagm/cortes/Localdisk/Results/17_07/two_phases/17/SPEc2/SPE10_16_56l
 _1cp_0/def_0_pod_0/bhp.jpg> </home/wagm/cortes/Localdisk/Results/17_07/two_phas
 es/17/SPEc2/SPE10_16_56l_1cp_0/POD/def_0_pod_0/eig_pod0.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1950--1951
+Underfull \hbox (badness 10000) in paragraph at lines 1962--1963
 
  []
 
@@ -1510,8 +1501,8 @@ erm_1cp0/def_0_pod_0/Permeability.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_06/two_phases/30/2w/rate/10-11_35pe
 rm_1cp0/def_0_pod_0/Permeability.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_06/two_phases/3
-0/2w/rate/10-11_35perm_1cp0/def_0_pod_0/Permeability.jpg used on input line 199
-8.
+0/2w/rate/10-11_35perm_1cp0/def_0_pod_0/Permeability.jpg used on input line 201
+0.
 (pdftex.def)             Requested size: 170.70569pt x 128.02927pt.
 
 </home/wagm/cortes/Localdisk/Results/17_06/two_phases/30/2w/rate/10-11_35perm_0
@@ -1522,7 +1513,7 @@ erm_0cp0/def_0_pod_0/bhp.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_06/two_phases/30/2w/rate/10-11_35pe
 rm_0cp0/def_0_pod_0/bhp.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_06/two_phases/3
-0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/bhp.jpg used on input line 2006.
+0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/bhp.jpg used on input line 2018.
 (pdftex.def)             Requested size: 170.70569pt x 128.02927pt.
 
 
@@ -1537,7 +1528,7 @@ erm_0cp0/def_0_pod_0/Water_rate.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_06/two_phases/30/2w/rate/10-11_35pe
 rm_0cp0/def_0_pod_0/Water_rate.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_06/two_phases/3
-0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/Water_rate.jpg used on input line 2018.
+0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/Water_rate.jpg used on input line 2030.
 
 (pdftex.def)             Requested size: 170.70569pt x 128.02927pt.
 
@@ -1549,7 +1540,7 @@ erm_0cp0/def_0_pod_0/Oil_rate.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_06/two_phases/30/2w/rate/10-11_35pe
 rm_0cp0/def_0_pod_0/Oil_rate.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_06/two_phases/3
-0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/Oil_rate.jpg used on input line 2025.
+0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/Oil_rate.jpg used on input line 2037.
 (pdftex.def)             Requested size: 170.70569pt x 128.02927pt.
 
 
@@ -1565,7 +1556,7 @@ erm_0cp0/def_0_pod_0/Water_saturation.jpg Graphic file (type jpg)
 rm_0cp0/def_0_pod_0/Water_saturation.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_06/two_phases/3
 0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/Water_saturation.jpg used on input line
- 2037.
+ 2049.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
 </home/wagm/cortes/Localdisk/Results/17_06/two_phases/30/2w/rate/10-11_35perm_0
@@ -1576,7 +1567,7 @@ erm_0cp0/def_0_pod_0/Pressure.jpg Graphic file (type jpg)
 <use /home/wagm/cortes/Localdisk/Results/17_06/two_phases/30/2w/rate/10-11_35pe
 rm_0cp0/def_0_pod_0/Pressure.jpg>
 Package pdftex.def Info: /home/wagm/cortes/Localdisk/Results/17_06/two_phases/3
-0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/Pressure.jpg used on input line 2045.
+0/2w/rate/10-11_35perm_0cp0/def_0_pod_0/Pressure.jpg used on input line 2057.
 (pdftex.def)             Requested size: 227.60759pt x 170.70569pt.
 
 
@@ -1600,24 +1591,24 @@ p0/def_0_pod_0/Pressure.jpg>] (./report_08_13.bbl) [40
 
 ] [41] [42] [43]
 
-LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2172.
+LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2184.
 
 
-LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2173.
+LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2185.
 
 
-LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2181.
+LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2193.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2196--2201
+Underfull \hbox (badness 10000) in paragraph at lines 2208--2213
 
  []
 
 
-LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2211.
+LaTeX Warning: Reference `eq:linsys' on page 44 undefined on input line 2223.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2212--2213
+Underfull \hbox (badness 10000) in paragraph at lines 2224--2225
 
  []
 
@@ -1631,7 +1622,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  4929 strings out of 494409
- 97670 string characters out of 6164778
+ 96478 string characters out of 6164778
  150863 words of memory out of 5000000
  8021 multiletter control sequences out of 15000+600000
  20015 words of font info for 83 fonts, out of 8000000 for 9000
@@ -1659,7 +1650,7 @@ lic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on report_08_13.pdf (45 pages, 3248265 bytes).
+Output written on report_08_13.pdf (45 pages, 3005956 bytes).
 PDF statistics:
  310 PDF objects out of 1000 (max. 8388607)
  174 compressed objects within 2 object streams
