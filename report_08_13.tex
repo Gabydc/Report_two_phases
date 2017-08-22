@@ -1210,33 +1210,33 @@ $\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\
 $10^{0}$ &14136& DICCG$_{POD_{10}}$&588&2357&2945&21 \\ 
 \hline  
 $10^{0}$ &14136& DICCG$_{POD_{5}}$&588&2520&3108&22 \\ 
+\hline   
+$10^{1}$ &17224& DICCG$_{POD_{10}}$&660&3431&4091&24 \\ 
+\hline  
+$10^{1}$ &17224& DICCG$_{POD_{5}}$&660&3658&4318&25 \\ 
+\hline  
+$10^{2}$ &20562& DICCG$_{POD_{10}}$&763&3468&4231&21 \\ 
+\hline  
+$10^{2}$ &20562& DICCG$_{POD_{5}}$&763&3596&4359&21 \\ 
 \hline 
-$10^{1}$ &16614& DICCG$_{POD_{10}}$&672&2786&3458&21 \\ 
+$10^{3}$ &18514& DICCG$_{POD_{10}}$&605&2894&3499&19 \\ 
 \hline  
-$10^{1}$ &16614& DICCG$_{POD_{5}}$&672&3130&3802&23 \\ 
+$10^{3}$ &18514& DICCG$_{POD_{5}}$&605&2943&3548&19 \\ 
+\hline 
+$10^{4}$ &15397& DICCG$_{POD_{10}}$&520&2801&3321&22 \\ 
 \hline  
-$10^{2}$ &20037& DICCG$_{POD_{10}}$&786&3290&4076&20 \\ 
+$10^{4}$ &15397& DICCG$_{POD_{5}}$&520&2925&3445&22 \\ 
+\hline 
+$10^{5}$ &14955& DICCG$_{POD_{10}}$&505&3025&3530&24 \\ 
 \hline  
-$10^{2}$ &20037& DICCG$_{POD_{5}}$&786&3773&4559&23 \\ 
-\hline  
-$10^{3}$ &18640& DICCG$_{POD_{10}}$&610&2918&3528&19 \\ 
-\hline  
-$10^{3}$ &18640& DICCG$_{POD_{5}}$&610&3265&3875&21 \\ 
-\hline  
-$10^{4}$ &15437& DICCG$_{POD_{10}}$&522&2712&3234&21 \\ 
-\hline  
-$10^{4}$ &15437& DICCG$_{POD_{5}}$&522&3107&3629&24 \\ 
-\hline  
-$10^{5}$ &14371& DICCG$_{POD_{10}}$&505&2899&3404&24 \\ 
-\hline  
-$10^{5}$ &14371& DICCG$_{POD_{5}}$&505&3273&3778&26 \\ 
+$10^{5}$ &14955& DICCG$_{POD_{5}}$&505&3206&3711&25 \\ 
 \hline
-$10^{6}$ &13176& DICCG$_{POD_{10}}$&470&3361&3831&29 \\ 
+$10^{6}$ &13228& DICCG$_{POD_{10}}$&469&3531&4000&30 \\ 
 \hline  
-$10^{6}$ &13176& DICCG$_{POD_{5}}$&470&2940&3410&26 \\ 
-\hline 
+$10^{6}$ &13228& DICCG$_{POD_{5}}$&469&2992&3461&26 \\ 
+\hline  
 \end{tabular} 
-\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for various contrast between permeability layers. Injection through the left boundary, domain 24 x 24 x 24 cells, capillary pressure and gravity included.}\label{table:liter1c} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for various contrast between permeability layers. Injection through the left boundary, domain 24 x 24 x 24 cells, capillary pressure and gravity included, vertical layers.}\label{table:liter1c} 
 \end{minipage}  
 \end{table}  
 
@@ -1272,6 +1272,57 @@ $10^{6}$ &13176& DICCG$_{POD_{5}}$&470&2940&3410&26 \\
 
 In Table \ref{table:liter1c}, we observe that for the DICCG method we need around 20\% of the number of iterations necessary for the ICCG. We also note that this percentage increases slightly 
 when we increase the contrast between permeability layers. If we compare with the case without capillary pressure, we observe that the performance is better without capillary pressure. As mentioned in the 2D case, this could be caused by the lack of information in the deflation vectors.
+
+
+\begin{table}[!h]\centering
+\begin{minipage}{1\textwidth}
+ \centering
+\begin{tabular}{ ||c|c||l|c|c|c|c||} 
+\hline
+$\frac{\sigma_2}{\sigma_1}$&Total&Method  & ICCG&DICCG &Total&\% of total\\ 
+                           & ICCG     &  & Snapshots& &ICCG& ICCG\\ 
+                            &     &  & & &+DICCG& \\
+\hline  
+$10^{0}$ &14136& DICCG$_{POD_{10}}$&588&2357&2945&21 \\ 
+\hline  
+$10^{0}$ &14136& DICCG$_{POD_{5}}$&588&2520&3108&22 \\ 
+\hline  
+$10^{1}$ &16614& DICCG$_{POD_{10}}$&672&2786&3458&21 \\ 
+\hline  
+$10^{1}$ &16614& DICCG$_{POD_{5}}$&672&3130&3802&23 \\ 
+\hline  
+$10^{2}$ &20037& DICCG$_{POD_{10}}$&786&3290&4076&20 \\ 
+\hline  
+$10^{2}$ &20037& DICCG$_{POD_{5}}$&786&3773&4559&23 \\ 
+\hline 
+$10^{3}$ &18640& DICCG$_{POD_{10}}$&610&2918&3528&19 \\ 
+\hline  
+$10^{3}$ &18640& DICCG$_{POD_{5}}$&610&3265&3875&21 \\ 
+\hline 
+$10^{4}$ &15437& DICCG$_{POD_{10}}$&522&2712&3234&21 \\ 
+\hline  
+$10^{4}$ &15437& DICCG$_{POD_{5}}$&522&3107&3629&24 \\ 
+\hline  
+$10^{5}$ &14371& DICCG$_{POD_{10}}$&505&2899&3404&24 \\ 
+\hline  
+$10^{5}$ &14371& DICCG$_{POD_{5}}$&505&3273&3778&26 \\ 
+\hline
+$10^{6}$ &13176& DICCG$_{POD_{10}}$&470&3361&3831&29 \\ 
+\hline  
+$10^{6}$ &13176& DICCG$_{POD_{5}}$&470&2940&3410&26 \\ 
+\hline 
+\end{tabular} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for various contrast between permeability layers. Injection through the left boundary, domain 24 x 24 x 24 cells, capillary pressure and gravity included, horizontal layers.}\label{table:liter1c} 
+\end{minipage}  
+\end{table}  
+
+
+
+
+
+
+
+
 
 \newpage
 \subsection*{Wells.}
@@ -1356,7 +1407,7 @@ $10^{7}$ &16080& DICCG$_{POD_{10}}$&670&513&1183&7 \\
 $10^{7}$ &16080& DICCG$_{POD_{5}}$&670&267&937&6 \\ 
 \hline  
 \end{tabular} 
-\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations for the second NR iteration for various contrast between permeability layers. }\label{table:litertotw2} 
+\caption{Comparison between the ICCC and DICCG methods of the average number of linear iterations  for various contrast between permeability layers. }\label{table:litertotw2} 
 \end{minipage}  
 \end{table}  
 
